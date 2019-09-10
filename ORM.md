@@ -5,7 +5,7 @@ Django中的ORM
 * Django实现了ORM的一个框架，在项目与数据之间起桥梁作用
 * Django数据库开发步骤如下： 
 
-		* a. 在models.py定义模型类
+	* a. 在models.py定义模型类
 	* b. 生成*迁移文件：python manage.py makegirations
 	* c. 执行迁移生成数据库：python manage.py girate
 ## 模型类设计：
@@ -14,7 +14,7 @@ Django中的ORM
 		属性名 = models.字段类型(字段选项) 
 * 字段类型：
 
-		+ AutoField：自动增长，通常不需要指定，自动创建名为id的自动增长属性
+	+ AutoField：自动增长，通常不需要指定，自动创建名为id的自动增长属性
 	
 	+ CharField：字符串，必须指定的参数：max_length 最大字符个数
 	
